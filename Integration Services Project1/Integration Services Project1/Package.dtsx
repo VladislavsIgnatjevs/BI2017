@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{12DBD893-15EE-481D-8100-425BC99FB94C}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{75C70EA4-E56E-4C7A-A57A-BED309839BDA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -235,7 +235,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB45jiFAhokqe684UFvN3QgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB4DJC44fmVxLActrkYDAFXAAAAAASAAACgAAAAEAAAABpMfkkCFOuK99gfMZgELZ8gAAAAACSpeNMijmEaoYuIOdjivKLlN8JQKTsteFtBO89sS3YUAAAAGGmBalL9UBv27qYM/UNytcNtLeg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB45jiFAhokqe684UFvN3QgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD8JRUAzOGabesmm8A0gXRRAAAAAASAAACgAAAAEAAAAGNc+IrcDY+T7jpG1fCGcLYgAAAALUHi88O7clpKkjQWtkFR1uDMYCwvdzz0qVoniRSLulIUAAAAAM70b5X/V4AnVcjYPa4n97zW5dk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -250,7 +250,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB45jiFAhokqe684UFvN3QgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABUAvcToeJhdSzqePzL9lsEAAAAAASAAACgAAAAEAAAABIvwuTbIGgR/+j9gfUmBM0gAAAASJGE/AUmOqgDBkqbjihXTDbYlhhxatYT60ojPDHh74QUAAAABsG8g0cby4+g4gaiaRSRMt5Zc0U</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB45jiFAhokqe684UFvN3QgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABrqTJsbvWJ+R3koOISLrh4AAAAAASAAACgAAAAEAAAAKWzuwzg/5OxKCkD99Fv9AkgAAAAfFnuv4kxHiXPclWPcYfB82TVe2mbv4dQYdW1GH9s6K4UAAAAURKe+K2wbSc43aRojWYjVmv1b3o</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1042,8 +1042,8 @@
               <connections>
                 <connection
                   refId="Package\ETL\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.acess_log_table]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.acess_log_table]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1086,8 +1086,13 @@
           </components>
           <paths>
             <path
-              refId="Package\ETL.Paths[Flat File Source Output]"
+              refId="Package\ETL.Paths[Conditional Split Default Output]"
               endId="Package\ETL\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Conditional Split Default Output"
+              startId="Package\ETL\Conditional Split.Outputs[Conditional Split Default Output]" />
+            <path
+              refId="Package\ETL.Paths[Flat File Source Output]"
+              endId="Package\ETL\Conditional Split.Inputs[Conditional Split Input]"
               name="Flat File Source Output"
               startId="Package\ETL\Input ETL.Outputs[Flat File Source Output]" />
           </paths>
@@ -1118,11 +1123,7 @@
     design-time-name="Package\ETL">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="171,42"
-          Id="Package\ETL\OLE DB Destination"
-          TopLeft="5.5,5.5" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="151,42"
           Id="Package\ETL\Input ETL"
@@ -1130,45 +1131,45 @@
         <NodeLayout
           Size="155,42"
           Id="Package\ETL\Conditional Split"
-          TopLeft="417,24" />
-        <NodeLayout
-          Size="169,42"
-          Id="Package\ETL\Check Date Format"
-          TopLeft="816.111111111111,121" />
+          TopLeft="490.333333333333,71.7777777777778" />
         <NodeLayout
           Size="197,42"
           Id="Package\ETL\Check Date Format FLAG"
-          TopLeft="768.5,34.8888888888889" />
+          TopLeft="334.055555555556,299.333333333333" />
         <NodeLayout
           Size="164,42"
           Id="Package\ETL\Conditional Split 1"
-          TopLeft="1246.66666666667,134.444444444444" />
+          TopLeft="1134.44444444445,363.333333333333" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\ETL\Check Date Format"
+          TopLeft="870.555555555555,457.666666666667" />
         <EdgeLayout
           Id="Package\ETL.Paths[Flat File Source Output]"
           TopLeft="1251.05555555556,57.2777777777778">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-1074.55555555556,-30.7777777777778"
+              EndConnector="-605.722222222227,35.5"
               Start="0,0"
-              End="-1067.05555555556,-30.7777777777778">
+              End="-598.222222222227,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-533.277777777778,0" />
+                    End="-298.861111111113,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="-533.277777777778,0"
-                    Point2="-537.277777777778,0"
-                    Point3="-537.277777777778,-4" />
+                    Point1="-298.861111111113,0"
+                    Point2="-302.861111111113,0"
+                    Point3="-302.861111111113,4" />
                   <mssgle:LineSegment
-                    End="-537.277777777778,-26.7777777777778" />
+                    End="-302.861111111113,31.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-537.277777777778,-26.7777777777778"
-                    Point2="-537.277777777778,-30.7777777777778"
-                    Point3="-541.277777777778,-30.7777777777778" />
+                    Point1="-302.861111111113,31.5"
+                    Point2="-302.861111111113,35.5"
+                    Point3="-306.861111111113,35.5" />
                   <mssgle:LineSegment
-                    End="-1067.05555555556,-30.7777777777778" />
+                    End="-598.222222222227,35.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1177,8 +1178,66 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="171,42"
+          Id="Package\ETL\OLE DB Destination"
+          TopLeft="228.888888888889,137.777777777778" />
+        <EdgeLayout
+          Id="Package\ETL.Paths[Conditional Split Default Output]"
+          TopLeft="567.833333333333,113.777777777778">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-253.444444444444,24"
+              Start="0,0"
+              End="-253.444444444444,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8"
+                    Point2="0,12"
+                    Point3="-4,12" />
+                  <mssgle:LineSegment
+                    End="-249.444444444444,12" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-249.444444444444,12"
+                    Point2="-253.444444444444,12"
+                    Point3="-253.444444444444,16" />
+                  <mssgle:LineSegment
+                    End="-253.444444444444,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text=""
+          ParentId="Package\ETL"
+          FontInfo="{assembly:Null}"
+          Size="40,60"
+          Id="fbaed76d-254e-410a-94c5-acdca01b7953"
+          TopLeft="1106.66666666667,177.777777777778" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\ETL\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
