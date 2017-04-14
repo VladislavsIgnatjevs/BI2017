@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="152"
-  DTS:VersionGUID="{BF0A2AB1-AEAB-4B37-B60E-02B0BF549EA7}">
+  DTS:VersionBuild="155"
+  DTS:VersionGUID="{2AB2CC67-5C45-4A3D-9C3B-68F5A279DC41}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -485,7 +485,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="date"
-              DTS:DTSID="{63F774A1-E262-403E-999B-5DD83F31CD2B}"
+              DTS:DTSID="{8B0BDF3F-4BF2-4B84-B2AE-62321DA2DF50}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -494,7 +494,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="time"
-              DTS:DTSID="{D5ACD8FE-463D-4F2A-8553-9F1FC7409F8C}"
+              DTS:DTSID="{3821D65A-08B2-4803-B9B2-94B1BA35EAB5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -503,7 +503,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="host_ip"
-              DTS:DTSID="{5620ABD9-C714-4316-9A33-19CC90697D83}"
+              DTS:DTSID="{61CCD5FD-6156-4D6F-A6A8-D7CD7A09ED30}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -512,7 +512,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="method"
-              DTS:DTSID="{08113324-EC18-47D7-8CD6-15B971248C6C}"
+              DTS:DTSID="{A05ACD67-07D1-491A-8CB8-67D7B99C42E2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -521,7 +521,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="request_uri"
-              DTS:DTSID="{4AB3370C-3A3F-4270-916D-CB9E60E443CA}"
+              DTS:DTSID="{FCF77063-D3F5-469C-928B-8D54AC76FB05}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -530,7 +530,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="junk"
-              DTS:DTSID="{BA73A916-938A-48C6-B046-BF037CD184AD}"
+              DTS:DTSID="{406E60FA-8C99-4C96-89B0-5ED72D74C97E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -539,7 +539,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="port"
-              DTS:DTSID="{DA7EAC66-0039-40D1-B7DA-81F64B574262}"
+              DTS:DTSID="{BE163EE8-7C41-4074-A722-29D00F8F1332}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -548,7 +548,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="junk1"
-              DTS:DTSID="{EC292F1E-3936-4DB9-A70B-A82892E3631F}"
+              DTS:DTSID="{9591F3C3-BE71-4668-8F22-66128F4C870B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -557,7 +557,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="user_ip"
-              DTS:DTSID="{A9283C2A-60CB-4F23-A3B1-BDB1ADF48ADE}"
+              DTS:DTSID="{1A1AD725-01FC-4D4C-A7E6-59C8F375D1DF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -566,7 +566,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="user_browser"
-              DTS:DTSID="{23485DA3-D1AE-4D4B-8C36-80DE15842C48}"
+              DTS:DTSID="{F3796B59-85A9-4D16-BAB7-296B1449EA72}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -575,7 +575,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="cookie"
-              DTS:DTSID="{7A0CFD3D-075D-442F-949B-F391B675F283}"
+              DTS:DTSID="{FAEC91FD-FF10-479E-8E68-76AE0451CCB5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -584,7 +584,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="referrer"
-              DTS:DTSID="{3AC031F1-CC94-4CC5-BD19-704E4BF1F439}"
+              DTS:DTSID="{4F871725-7460-4166-B4E6-76B64A201B11}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -593,7 +593,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="response_code"
-              DTS:DTSID="{217F0B25-4E8E-46B4-849F-04731277FD2B}"
+              DTS:DTSID="{6B8A0CCD-696D-43B1-A882-43C040BD5F2C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -602,7 +602,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="substatus"
-              DTS:DTSID="{00C30643-BA68-44EC-AAB2-D634761E459F}"
+              DTS:DTSID="{3572552B-C76F-40A2-9F9F-01892057D9CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -611,7 +611,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="win32_status"
-              DTS:DTSID="{A83C6270-71FE-49D3-834F-1BFDDBD05A3A}"
+              DTS:DTSID="{F3F1FA5A-AB85-421C-AC4D-E479A4420896}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -620,7 +620,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="sc_bytes"
-              DTS:DTSID="{80BDBFB8-E85D-4C4C-8A52-F9E4F991EA1B}"
+              DTS:DTSID="{A2D9CB07-DFFB-4063-8C44-0F9BBDE6DE9D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -629,7 +629,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="cs_bytes"
-              DTS:DTSID="{51E98473-A97B-4DA2-A6CE-3566850C8836}"
+              DTS:DTSID="{6AE26CF2-F940-4534-B37D-E1C8CFF74076}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -638,7 +638,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="time_taken"
-              DTS:DTSID="{65D869FF-2A28-42C6-93D7-9CA180992D5D}"
+              DTS:DTSID="{C4D783DE-18C7-44B7-927F-31F40EFF5977}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1301,7 +1301,7 @@
                       cachedDataType="str"
                       cachedLength="94"
                       cachedName="user_browser"
-                      lineageId="Package\assign geodata for distinct(save api usage)\486:invalid" />
+                      lineageId="Package\assign geodata for distinct(save api usage)\492:invalid" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1321,7 +1321,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\486:invalid},7) == "Mozilla"</property>
+                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\492:invalid},7) == "Mozilla"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -1349,7 +1349,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\486:invalid},7) == "Yandex"</property>
+                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\492:invalid},7) == "Yandex"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -1377,7 +1377,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\486:invalid},9) == "Googlebot"</property>
+                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\492:invalid},9) == "Googlebot"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -1405,7 +1405,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\486:invalid},13) == "panscient.com"</property>
+                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\492:invalid},13) == "panscient.com"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -1433,7 +1433,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\486:invalid},6) == "msnbot"</property>
+                      name="Expression">[LEFT](#{Package\assign geodata for distinct(save api usage)\492:invalid},6) == "msnbot"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -2022,7 +2022,7 @@
                       cachedDataType="str"
                       cachedLength="94"
                       cachedName="user_browser"
-                      lineageId="Package\calculate counts for measurable data\487:invalid" />
+                      lineageId="Package\calculate counts for measurable data\493:invalid" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2042,7 +2042,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\487:invalid},7) == "Mozilla"</property>
+                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\493:invalid},7) == "Mozilla"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -2070,7 +2070,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\487:invalid},7) == "Yandex"</property>
+                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\493:invalid},7) == "Yandex"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -2098,7 +2098,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\487:invalid},9) == "Googlebot"</property>
+                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\493:invalid},9) == "Googlebot"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -2126,7 +2126,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\487:invalid},13) == "panscient.com"</property>
+                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\493:invalid},13) == "panscient.com"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -2154,7 +2154,7 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\487:invalid},6) == "msnbot"</property>
+                      name="Expression">[LEFT](#{Package\calculate counts for measurable data\493:invalid},6) == "msnbot"</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -2542,7 +2542,6 @@
       DTS:refId="Package\Divide files by column count"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="Foreach Loop Container"
-      DTS:Disabled="True"
       DTS:DTSID="{04b3626e-c8a5-447a-9fed-76ecf87f83f1}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="-1"
@@ -8199,7 +8198,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].Columns[filename]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="600"
                           cachedName="filename"
                           externalMetadataColumnId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].ExternalColumns[filename]"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[filename]" />
@@ -8207,7 +8206,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].Columns[file_extension]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="10"
+                          cachedLength="600"
                           cachedName="file_extension"
                           externalMetadataColumnId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].ExternalColumns[file_extension]"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[file_extension]" />
@@ -8215,7 +8214,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].Columns[path_to_file]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="50"
+                          cachedLength="600"
                           cachedName="path_to_file"
                           externalMetadataColumnId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].ExternalColumns[path_to_file]"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[path_to_file]" />
@@ -8223,7 +8222,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].Columns[is_page]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="50"
+                          cachedLength="600"
                           cachedName="is_page"
                           externalMetadataColumnId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].ExternalColumns[is_page]"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[is_page]" />
@@ -8231,7 +8230,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].Columns[type_of_file]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="50"
+                          cachedLength="600"
                           cachedName="type_of_file"
                           externalMetadataColumnId="Package\Foreach Loop Log File catalog\long log file load\file dimension.Inputs[OLE DB Destination Input].ExternalColumns[type_of_file]"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[type_of_file]" />
@@ -8334,7 +8333,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="str"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="255"
+                          length="600"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[filename]"
                           name="filename"
                           truncationRowDisposition="FailComponent">
@@ -8358,7 +8357,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="str"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="10"
+                          length="600"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[file_extension]"
                           name="file_extension"
                           truncationRowDisposition="IgnoreFailure">
@@ -8382,7 +8381,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="str"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="50"
+                          length="600"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[type_of_file]"
                           name="type_of_file"
                           truncationRowDisposition="FailComponent">
@@ -8406,7 +8405,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="str"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="50"
+                          length="600"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[is_page]"
                           name="is_page"
                           truncationRowDisposition="FailComponent">
@@ -8430,7 +8429,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="str"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="50"
+                          length="600"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[path_to_file]"
                           name="path_to_file"
                           truncationRowDisposition="FailComponent">
@@ -10858,7 +10857,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file-conditionals.Inputs[Input 0].Columns[filename]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="255"
+                          cachedLength="600"
                           cachedName="filename"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[filename]"
                           usageType="readWrite" />
@@ -10866,7 +10865,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file-conditionals.Inputs[Input 0].Columns[file_extension]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="10"
+                          cachedLength="600"
                           cachedName="file_extension"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[file_extension]"
                           usageType="readWrite" />
@@ -10874,7 +10873,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file-conditionals.Inputs[Input 0].Columns[type_of_file]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="50"
+                          cachedLength="600"
                           cachedName="type_of_file"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[type_of_file]"
                           usageType="readWrite" />
@@ -10882,7 +10881,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file-conditionals.Inputs[Input 0].Columns[is_page]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="50"
+                          cachedLength="600"
                           cachedName="is_page"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[is_page]"
                           usageType="readWrite" />
@@ -10890,7 +10889,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\file-conditionals.Inputs[Input 0].Columns[path_to_file]"
                           cachedCodepage="1252"
                           cachedDataType="str"
-                          cachedLength="50"
+                          cachedLength="600"
                           cachedName="path_to_file"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\file dimension transformations 1.Outputs[Derived Column Output].Columns[path_to_file]"
                           usageType="readWrite" />
@@ -11354,7 +11353,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[response_code]"
                           name="response_code"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11376,7 +11375,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[substatus]"
                           name="substatus"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11398,7 +11397,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[time_taken]"
                           name="time_taken"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11420,7 +11419,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[cookie]"
                           name="cookie"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11442,7 +11441,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[referrer]"
                           name="referrer"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11464,7 +11463,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[win32_status]"
                           name="win32_status"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11486,7 +11485,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[sc_bytes]"
                           name="sc_bytes"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11508,7 +11507,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[cs_bytes]"
                           name="cs_bytes"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11737,7 +11736,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     <property
                       dataType="System.String"
                       description="Specifies the name of the database object used to open a rowset."
-                      name="OpenRowset">[request dimension]</property>
+                      name="OpenRowset">[dbo].[request dimension]</property>
                     <property
                       dataType="System.String"
                       description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -11829,26 +11828,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[request_uri]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="request_uri" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[response_code]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="response_code" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[time_taken]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="time_taken" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[type]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="type" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                          dataType="i4"
+                          name="id" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -18201,26 +18204,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[request_uri]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="request_uri" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[response_code]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="response_code" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[time_taken]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="time_taken" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[type]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="type" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                          dataType="i4"
+                          name="id" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -19809,26 +19816,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-314.43650793652,29.1031746031744"
+              EndConnector="-314.43650793652,29.103174603174"
               Start="0,0"
-              End="-314.43650793652,21.6031746031744">
+              End="-314.43650793652,21.603174603174">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,10.5515873015872" />
+                    End="0,10.551587301587" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,10.5515873015872"
-                    Point2="0,14.5515873015872"
-                    Point3="-4,14.5515873015872" />
+                    Point1="0,10.551587301587"
+                    Point2="0,14.551587301587"
+                    Point3="-4,14.551587301587" />
                   <mssgle:LineSegment
-                    End="-310.43650793652,14.5515873015872" />
+                    End="-310.43650793652,14.551587301587" />
                   <mssgle:CubicBezierSegment
-                    Point1="-310.43650793652,14.5515873015872"
-                    Point2="-314.43650793652,14.5515873015872"
-                    Point3="-314.43650793652,18.5515873015872" />
+                    Point1="-310.43650793652,14.551587301587"
+                    Point2="-314.43650793652,14.551587301587"
+                    Point3="-314.43650793652,18.551587301587" />
                   <mssgle:LineSegment
-                    End="-314.43650793652,21.6031746031744" />
+                    End="-314.43650793652,21.603174603174" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

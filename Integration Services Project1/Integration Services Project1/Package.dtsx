@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="153"
-  DTS:VersionGUID="{0179F1EA-F330-4263-8357-5D503BFB2234}">
+  DTS:VersionBuild="156"
+  DTS:VersionGUID="{73558D9B-51EA-4AED-AED0-12FE291D8441}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2542,7 +2542,6 @@
       DTS:refId="Package\Divide files by column count"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="Foreach Loop Container"
-      DTS:Disabled="True"
       DTS:DTSID="{04b3626e-c8a5-447a-9fed-76ecf87f83f1}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="-1"
@@ -11354,7 +11353,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[response_code]"
                           name="response_code"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11376,7 +11375,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[substatus]"
                           name="substatus"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11398,7 +11397,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[time_taken]"
                           name="time_taken"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11420,7 +11419,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[cookie]"
                           name="cookie"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11442,7 +11441,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[referrer]"
                           name="referrer"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11464,7 +11463,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[win32_status]"
                           name="win32_status"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11486,7 +11485,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[sc_bytes]"
                           name="sc_bytes"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11508,7 +11507,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           length="500"
                           lineageId="Package\Foreach Loop Log File catalog\long log file load\Input ETL (file type 2).Outputs[Flat File Source Output].Columns[cs_bytes]"
                           name="cs_bytes"
-                          truncationRowDisposition="FailComponent">
+                          truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
                               dataType="System.Boolean"
@@ -11737,7 +11736,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     <property
                       dataType="System.String"
                       description="Specifies the name of the database object used to open a rowset."
-                      name="OpenRowset">[request dimension]</property>
+                      name="OpenRowset">[dbo].[request dimension]</property>
                     <property
                       dataType="System.String"
                       description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -11829,26 +11828,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[request_uri]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="request_uri" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[response_code]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="response_code" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[time_taken]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="time_taken" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[type]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="type" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Log File catalog\long log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                          dataType="i4"
+                          name="id" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -18201,26 +18204,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[request_uri]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="request_uri" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[response_code]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="response_code" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[time_taken]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="time_taken" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[type]"
                           codePage="1252"
                           dataType="str"
-                          length="400"
+                          length="500"
                           name="type" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Log File catalog\short log file load\request dimension.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                          dataType="i4"
+                          name="id" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -19809,26 +19816,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-314.43650793652,29.1031746031744"
+              EndConnector="-314.43650793652,29.103174603174"
               Start="0,0"
-              End="-314.43650793652,21.6031746031744">
+              End="-314.43650793652,21.603174603174">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,10.5515873015872" />
+                    End="0,10.551587301587" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,10.5515873015872"
-                    Point2="0,14.5515873015872"
-                    Point3="-4,14.5515873015872" />
+                    Point1="0,10.551587301587"
+                    Point2="0,14.551587301587"
+                    Point3="-4,14.551587301587" />
                   <mssgle:LineSegment
-                    End="-310.43650793652,14.5515873015872" />
+                    End="-310.43650793652,14.551587301587" />
                   <mssgle:CubicBezierSegment
-                    Point1="-310.43650793652,14.5515873015872"
-                    Point2="-314.43650793652,14.5515873015872"
-                    Point3="-314.43650793652,18.5515873015872" />
+                    Point1="-310.43650793652,14.551587301587"
+                    Point2="-314.43650793652,14.551587301587"
+                    Point3="-314.43650793652,18.551587301587" />
                   <mssgle:LineSegment
-                    End="-314.43650793652,21.6031746031744" />
+                    End="-314.43650793652,21.603174603174" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
